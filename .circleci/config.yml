@@ -1,23 +1,28 @@
-version: 2
+
+machine:
+  timezone:
+    Asia/Tokyo
+
 checkout:
   post:
     - git submodule sync
     - git submodule update --init --recursive
 
-machine:
-  timezone: Asia/Tokyo
-
 dependencies:
   pre:
-    - go get -v github.com/cntrump/hugo-notepadium
+    - go get -v github.com/spf13/hugo
     - git config --global user.name "CircleCI"
     - git config --global user.email "circleci@example.com"
+
+test:
+  override:
+   - echo
 
 deployment:
   master:
     branch: master
     commands:
-      - git clone git@github.com:gakuji-t/gakuji-t.github.io.git
+      - git clone git@github.com:gakuji-t/gakuji-t.github.io.git public
       - hugo
       - cd public && git add .
       - cd public && git commit -m "[ci skip] publish"
