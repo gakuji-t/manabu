@@ -1,9 +1,4 @@
 version: 2
-jobs:
-  build:
-    docker:
-      - image: circleci/ruby:2.4.1
-    steps:
 checkout:
   post:
     - git submodule sync
@@ -22,7 +17,7 @@ deployment:
   master:
     branch: master
     commands:
-      - git clone git@github.com:gakuji-t/gakuji-t.github.io.git public
+      - git clone git@github.com:gakuji-t/gakuji-t.github.io.git
       - hugo
       - cd public && git add .
       - cd public && git commit -m "[ci skip] publish"
