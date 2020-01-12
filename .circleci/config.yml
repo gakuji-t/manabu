@@ -1,29 +1,39 @@
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version
+      - image: circleci/golang:1.9
 
-machine:
-  timezone:
-    Asia/Tokyo
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/postgres:9.4
 
-checkout:
-  post:
-    - git submodule sync
-    - git submodule update --init --recursive
+    #### TEMPLATE_NOTE: go expects specific checkout path representing url
+    #### expecting it in the form of
+    ####   /go/src/github.com/circleci/go-tool
+    ####   /go/src/bitbucket.org/circleci/go-tool
+    working_directory: /go/src/github.com/gakuji-t/manabu
+    steps:
+      - checkout
+      - run:
+          name: hugo install
+          command: |
+              go get -v github.com/spf13/hugo
+              git config --global user.name "manabu"
+              git config --global user.email "manabu.tech@gmail.com"
 
-dependencies:
-  pre:
-    - go get -v github.com/spf13/hugo
-    - git config --global user.name "CircleCI"
-    - git config --global user.email "circleci@example.com"
-
-test:
-  override:
-   - echo
-
-deployment:
-  master:
-    branch: master
-    commands:
-      - git clone git@github.com:gakuji-t/gakuji-t.github.io.git public
-      - hugo
-      - cd public && git add .
-      - cd public && git commit -m "[ci skip] publish"
-      - cd public && git push origin master
+      - run:
+          name: push to master
+          command: |
+              hugo
+              git clone https://github.com/gakuji-t/gakuji-t.github.io.git
+              ls
+              cp -rp public/* gakuji-t.github.io/
+              cd gakuji-t.github.io
+              ls
+              git remote set-url origin git@github.com:gakuji-t/gakuji-t.github.io.git
+              git add .
+              git commit -m "[ci skip] publish"
+              git push origin master
