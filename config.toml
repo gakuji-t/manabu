@@ -1,48 +1,55 @@
-baseurl = "/"
-languageCode = "en-us"
-theme = "hello-friend"
-paginate = 5
+baseURL = "/"
+title = "Manabu.tech"
+theme = "hugo-notepadium"
+copyright = "©2020 Manabu tech."
+
+languageCode = ""
+hasCJKLanguage = true
+
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = "XXX"
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[markup.highlight]
+codeFences = true
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
 
 [params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  # "light" or "dark"
-  defaultTheme = "dark"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-  # Show reading time in minutes for posts
-  showReadingTime = false
+style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
+logo = ""  # if you have a logo png
+slogan = "Make your smaill"
+license = ""  # CC License
 
-[languages]
-  [languages.en]
-    title = "Hello Friend"
-    subtitle = "A simple theme for Hugo"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+[params.comments]
+enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
 
-    [languages.en.params.logo]
-      logoText = "hello friend"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+[params.math]
+enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
+use = "katex"  # option: "katex", "mathjax". default: "katex"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+[params.syntax]
+use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
+theme = "dracula"
+darkTheme = "xcode-dark"  # apply this theme in dark mode
+
+[params.nav]
+showCategories = true       # /categories/
+showTags = true             # /tags/
+
+# custom navigation items
+
+[[params.nav.custom]]
+title = "About"
+url = "/about"
+
+[[params.nav.custom]]
+title = "Hugo"
+url = "https://gohugo.io/"
