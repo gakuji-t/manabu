@@ -1,9 +1,9 @@
 version: 2
 jobs:
     docker:
-      - image: cibuilds/hugo:0.53
+      #- image: cibuilds/hugo:0.53
     environment:
-      - GOCACHE: "/tmp/go/cache"
+      #- GOCACHE: "/tmp/go/cache"
     steps:
 checkout:
   post:
