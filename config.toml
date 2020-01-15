@@ -40,6 +40,9 @@ use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
 theme = "dracula"
 darkTheme = "xcode-dark"  # apply this theme in dark mode
 
+[permalinks]
+  posts = "/:year/:month/:filename/"
+
 [params.nav]
 showCategories = true       # /categories/
 showTags = true             # /tags/
