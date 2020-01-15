@@ -41,7 +41,7 @@ theme = "dracula"
 darkTheme = "xcode-dark"  # apply this theme in dark mode
 
 [permalinks]
-  posts = "/:year/:month/:filename/"
+posts = "/:year/:month/:filename/"
 
 [params.nav]
 showCategories = true       # /categories/
@@ -55,4 +55,4 @@ url = "/about"
 
 [[params.nav.custom]]
 title = "TSUMUGU.INC"
-url = "https://tsumugu-inc.com"
+url = "https://www.tsumugu-inc.com"
