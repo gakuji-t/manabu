@@ -1,7 +1,11 @@
 ---
 title: "インスタンスゼロ株式会社共同創業"
-date: 2017-11-1
-draft: true
+date: 201８-12-17
+#draft: true
+alternatelocales:
+  - ja-JP
+tags:
+  - ins0
 ---
 
 <div align="center">
@@ -10,11 +14,14 @@ draft: true
 
 ### 創業の想い
 2018年12月17日にインスタンスゼロ株式会社(https://ins0.jp/)
-を5人のメンバーと共同創業致しました。代表の長瀬敦史とフィリピンで知り合い、5年近くが経ち、その後、日本に帰国後も長瀬を信頼するプロフェッショナルなエンジニアに出会う事ができ、これも何かの縁ではないかと深く感じています。今回、そのメンバーと「WE BUILD FIRST INSTANCES」をビジョンに、まだ見ぬソフトウェアサービスの開発ができることを嬉しく思います。これから世の中にある多くのアイディアを０→１に限りなく早くしていき社会に多くのソフトウェアサービスが生れて行く事に貢献して参ります。<a href="https://ja.ngs.io/2019/02/01/instance0/?fbclid=IwAR1mf3JBz91TjSatgbKWDPzvF-usc-xILk8qula06FykqGV1AIz_LekcRpw">詳しくは代表のブログを！
+を5人のメンバーと共同創業致しました。代表の長瀬敦史との出会いは面白く、私がゲーム会社に所属してフィリピン法人のQA立ち上げをしてた時代に、私の先輩に会いにフィリピンの <a href="https://www.takethetravel.com/calayo-cove-nasugbu-batangas-a-guide-for-backpackers/"> Calayo(カラヨ)
 </a>
+と言う日本人が全く居ない携帯の電波も届かないくらいの田舎に来てた時に出会いました。(一緒に釣りをしたのが始まりですね)それから、数年は連絡をとっていなかったのですが、私が日本に帰国した2017年に大阪で再会して、仕事を一緒にするようになりました。その後、長瀬を信頼するプロフェッショナルなエンジニアやデザイナーに出会う事ができ、これも何かの縁ではないかと深く感じています。今回、そのメンバーと**「WE BUILD FIRST INSTANCES」**をビジョンに、まだ見ぬソフトウェアサービスの開発ができることを嬉しく思います。これから世の中にある多くのアイディアを０→１に限りなく早くしていき社会に多くのソフトウェアサービスが生れて行く事に貢献して参ります。<a href="https://ja.ngs.io/2019/02/01/instance0/?fbclid=IwAR1mf3JBz91TjSatgbKWDPzvF-usc-xILk8qula06FykqGV1AIz_LekcRpw">詳しくは代表のブログを！
+ </a>
 
 #### 創業メンバー
 
+<ul>
 <li>ソフトウェア開発者・代表取締役社長 <a href="https://ja.ngs.io/">長瀨 敦史</a></li>
 <li>システムアーキテクト <a href="https://twitter.com/osawagiboy">大澤 勇気</a></li>
 <li>UI デザイナー <a href="https://carlos-liu.com/">Carlos Liu</a></li>

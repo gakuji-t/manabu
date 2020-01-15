@@ -1,7 +1,7 @@
 ---
 title: "インスタンスゼロ株式会社の拠点を開設"
 date: 2018-10-1
-draft: true
+#draft: true
 author: gakuji
 alternatelocales:
   - ja-JP
