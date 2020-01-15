@@ -25,7 +25,7 @@ unsafe = true  # enable raw HTML in Markdown
 style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
 logo = ""  # if you have a logo png
-slogan = "Make your smaill"
+slogan = "Power of your smile"
 license = ""  # CC License
 
 [params.comments]
@@ -47,9 +47,9 @@ showTags = true             # /tags/
 # custom navigation items
 
 [[params.nav.custom]]
-title = "About"
+title = "ABOUT"
 url = "/about"
 
 [[params.nav.custom]]
-title = "Hugo"
-url = "https://gohugo.io/"
+title = "TSUMUGU.INC"
+url = "https://tsumugu-inc.com"
