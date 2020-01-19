@@ -1,12 +1,13 @@
 ---
 title: "インスタンスゼロ株式会社共同創業"
-date: 201８-12-17
+date: "2018-12-17T00:17:31+09:00"
 url: "/2019/02/01/post-292/"
 #draft: true
 alternatelocales:
   - ja-JP
 tags:
   - ins0
+share: true
 ---
 
 <div align="center">

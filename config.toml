@@ -3,7 +3,7 @@ title = "Manabu.tech"
 theme = "hugo-notepadium"
 copyright = "©2020 Manabu tech."
 
-languageCode = ""
+languageCode = "ja"
 hasCJKLanguage = true
 
 enableRobotsTXT = true
@@ -12,7 +12,7 @@ enableRobotsTXT = true
 #disqusShortname = "XXX"
 
 # Google Analytics
-#googleAnalytics = "UA-123-45"
+#googleAnalytics = "UA-92916914-1"
 
 [markup.highlight]
 codeFences = true
@@ -27,6 +27,7 @@ dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
 logo = ""  # if you have a logo png
 slogan = "Power of your smile"
 license = ""  # CC License
+addThis = "ra-5e240e9fd4f629c7"
 
 [params.comments]
 enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
@@ -56,3 +57,4 @@ url = "/about"
 [[params.nav.custom]]
 title = "TSUMUGU.INC"
 url = "https://www.tsumugu-inc.com"
+
