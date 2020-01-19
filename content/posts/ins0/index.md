@@ -7,7 +7,6 @@ alternatelocales:
   - ja-JP
 tags:
   - ins0
-share: true
 ---
 
 <div align="center">
