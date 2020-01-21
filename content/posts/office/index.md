@@ -1,6 +1,6 @@
 ---
 title: "インスタンスゼロ株式会社の拠点を開設"
-date: "2018-10-01T00:17:31+09:00"
+date: "2019-10-01T00:17:31+09:00"
 #draft: true
 author: gakuji
 alternatelocales:
