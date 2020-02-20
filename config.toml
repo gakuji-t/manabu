@@ -51,10 +51,14 @@ showTags = true             # /tags/
 # custom navigation items
 
 [[params.nav.custom]]
-title = "ABOUT"
+title = "about me"
 url = "/about"
 
 [[params.nav.custom]]
-title = "TSUMUGU.INC"
+title = "ins0 inc."
+url = "https://ins0.jp/"
+
+[[params.nav.custom]]
+title = "tsumugu.inc"
 url = "https://www.tsumugu-inc.com"
 
