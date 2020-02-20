@@ -1,13 +1,15 @@
 # 自己紹介
 <div align="left">
 <img src="./gakuji.jpg" width="200px" border="0">
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </div>
+
 <b>田中学二 (Gakuji Tanaka)</b><br>
 奄美大島出身の釣り好きです。
 現在、家族は大阪にいて東京で単身赴任中です。
 田舎育ちなのか人前にでるのが苦手で基本的にインドア派です。
 ただ、住んでいる環境が代わり減りましたがが自然も好きで釣りに行ったりします。
-後、お誘い頂ければ何処にでも出没します。文章も苦手ですが、品質保証の事、テストの事、マネージメントの事や日々想う事を書いていきますので時間ある時にでも眺めて頂ければと。
+後、お誘い頂ければ何処にでも出没します。文章も苦手ですが、品質保証の事、テストの事、マネージメントの事や日々想う事を書いていきますので時間ある時にでも眺めて頂ければと。　　
 
 
 
@@ -68,3 +70,8 @@ QA senior Manager</br>
 **[株式会社アルプス技研](https://www.alpsgiken.co.jp/)**</br>
 2001年04月ー2006年11月</br>
 QAエンジニア</br>
+
+
+----------------------------------------------
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="gakuji-tanaka-083856b5"><a class="LI-simple-link" href='https://jp.linkedin.com/in/gakuji-tanaka-083856b5?trk=profile-badge'>GAKUJI Tanaka</a></div>
+
